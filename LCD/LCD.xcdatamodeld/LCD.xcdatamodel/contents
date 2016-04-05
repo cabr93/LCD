@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Dato" syncable="YES">
+        <attribute name="autores" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="caratula" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="isbn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <fetchRequest name="petSeccion" entity="Dato" predicateString="isbn == $isbn"/>
+    <fetchRequest name="petSecciones" entity="Dato"/>
+    <elements>
+        <element name="Dato" positionX="-54" positionY="-9" width="128" height="105"/>
+    </elements>
 </model>

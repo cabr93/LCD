@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0736BDEA1CB30C8E00F968F3 /* blanco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0736BDE91CB30C8E00F968F3 /* blanco.jpg */; };
+		0736BDEE1CB30EE300F968F3 /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736BDED1CB30EE300F968F3 /* TVC.swift */; };
+		0736BDF01CB33F7600F968F3 /* libroN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736BDEF1CB33F7600F968F3 /* libroN.swift */; };
 		07CD15BF1CB1CF6B00040B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD15BE1CB1CF6B00040B9A /* AppDelegate.swift */; };
 		07CD15C11CB1CF6B00040B9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD15C01CB1CF6B00040B9A /* ViewController.swift */; };
 		07CD15C41CB1CF6B00040B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CD15C21CB1CF6B00040B9A /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0736BDE91CB30C8E00F968F3 /* blanco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blanco.jpg; sourceTree = "<group>"; };
+		0736BDED1CB30EE300F968F3 /* TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
+		0736BDEF1CB33F7600F968F3 /* libroN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libroN.swift; sourceTree = "<group>"; };
 		07CD15BB1CB1CF6B00040B9A /* LCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CD15BE1CB1CF6B00040B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07CD15C01CB1CF6B00040B9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +62,7 @@
 		07CD15BD1CB1CF6B00040B9A /* LCD */ = {
 			isa = PBXGroup;
 			children = (
+				0736BDE91CB30C8E00F968F3 /* blanco.jpg */,
 				07CD15BE1CB1CF6B00040B9A /* AppDelegate.swift */,
 				07CD15C01CB1CF6B00040B9A /* ViewController.swift */,
 				07CD15C21CB1CF6B00040B9A /* Main.storyboard */,
@@ -63,6 +70,8 @@
 				07CD15CA1CB1CF6B00040B9A /* LaunchScreen.storyboard */,
 				07CD15CD1CB1CF6B00040B9A /* Info.plist */,
 				07CD15C51CB1CF6B00040B9A /* LCD.xcdatamodeld */,
+				0736BDED1CB30EE300F968F3 /* TVC.swift */,
+				0736BDEF1CB33F7600F968F3 /* libroN.swift */,
 			);
 			path = LCD;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0736BDEA1CB30C8E00F968F3 /* blanco.jpg in Resources */,
 				07CD15CC1CB1CF6B00040B9A /* LaunchScreen.storyboard in Resources */,
 				07CD15C91CB1CF6B00040B9A /* Assets.xcassets in Resources */,
 				07CD15C41CB1CF6B00040B9A /* Main.storyboard in Resources */,
@@ -141,7 +151,9 @@
 			files = (
 				07CD15C11CB1CF6B00040B9A /* ViewController.swift in Sources */,
 				07CD15BF1CB1CF6B00040B9A /* AppDelegate.swift in Sources */,
+				0736BDEE1CB30EE300F968F3 /* TVC.swift in Sources */,
 				07CD15C71CB1CF6B00040B9A /* LCD.xcdatamodeld in Sources */,
+				0736BDF01CB33F7600F968F3 /* libroN.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +305,7 @@
 				07CD15D21CB1CF6B00040B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
